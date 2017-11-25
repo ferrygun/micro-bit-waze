@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>micro:bit Waze Traffic Accident Information</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+
+<body>
+
+<h3>micro:bit Singapore Waze Traffic Accident Information</h3>
+
+<script src="map.js"></script>
+
+<div id="map"></div>
+<!-- Replace the value of the key parameter in the call to the Google Maps JavaScript API URL below with your own API key. -->
+<!-- Make sure your API key is authorised to access the Google Maps API - you can enable that through your Google Developer console. -->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPjV8XfyJujTnp6ygwXlVTe1YBFacFVLA&callback=initialiseMap">
+</script>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+</body>
+</html>
