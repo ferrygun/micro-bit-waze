@@ -18,7 +18,9 @@ function initialiseMap() {
 		
 		$(data.values).each(function() {
 			if (typeof this[2] == 'undefined')	
-			title = 'none';
+				title = 'none';
+			else
+				title = this[2];
     	
 		    lat = this[0];
 			lng = this[1];
@@ -29,7 +31,7 @@ function initialiseMap() {
 				show = true;
 
 
-			console.log(lat + ":" + lng);
+			//console.log(title +":" + lat + ":" + lng);
 
     		var location = {};
 				location.title = title;
