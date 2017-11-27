@@ -28,5 +28,6 @@ Run the NodeJS app: ./node waze.js
 Open the https://ferrygun.github.io/micro-bit-waze/map/index.html to get the whereabout information.
 
 https://youtu.be/zeUn66bCovM
+
 Source code:
 https://github.com/ferrygun/micro-bit-waze
