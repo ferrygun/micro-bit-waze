@@ -73,10 +73,12 @@ function createMarker(map, location, infowindow) {
     lat: parseFloat(location.latitude),
     lng: parseFloat(location.longitude)
   };
+	var image = 'police.png';
   var marker = new google.maps.Marker({
     position: position,
     map: map,
     title: location.title,
+	icon: image
   });
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.setContent('<div>'+
